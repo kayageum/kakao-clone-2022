@@ -1,0 +1,11 @@
+.cog-alert {
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  font-size: xx-large;
+  font-weight: 600;
+  color: tomato;
+  position: absolute;
+  right: -5px;
+  top: -25px;
+}

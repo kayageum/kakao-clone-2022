@@ -1,0 +1,125 @@
+.find-icon {
+  display: flex;
+  justify-content: space-between;
+  color: var(--darkgray-font-color);
+}
+
+.find-icon__icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: bottom;
+  align-items: center;
+}
+
+.find-icon__icon i {
+  margin-bottom: 20px;
+}
+
+.find-icon__icon span {
+  width: 80px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.recommended-friends {
+  color: var(--gray-font-color);
+  font-size: 18px;
+  margin: 25px 0px;
+  padding: 25px 0px;
+  border-top: var(--gray-border);
+  border-bottom: var(--gray-border);
+}
+
+.recommended-friends__title {
+  font-size: 14px;
+}
+.recommended-friends span {
+  padding: 110px 0px;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+}
+
+.open-chat {
+  display: flex;
+  justify-content: space-between;
+  color: var(--gray-font-color);
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.open-chat__title {
+  font-weight: 600;
+}
+
+.ad-channel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 15px;
+}
+
+.ad-channel__title {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.ad-channel__tags {
+  color: var(--gray-font-color);
+  font-size: 16px;
+  padding: 7px 0px;
+}
+
+.ad-channel__info {
+  color: var(--gray-font-color);
+  font-size: 14px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.ad-channel__info img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.ad-channel__info-divider {
+  width: 1px;
+  height: 12px;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: 0px 5px;
+}
+
+.ad-channel__info-live {
+  color: #ff68c5;
+  font-size: 14px;
+}
+
+.ad-channel__image {
+  position: relative;
+}
+
+.ad-channel__image-img img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.ad-channel__image-like {
+  background-color: var(--gray-font-color);
+  color: white;
+  padding: 5px 7px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 7px;
+  right: 7px;
+  font-size: 12px;
+}
+
+.ad-channel__image-like i {
+  margin-right: 5px;
+}
