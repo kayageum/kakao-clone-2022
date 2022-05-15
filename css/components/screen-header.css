@@ -14,3 +14,7 @@
 .screen-header__icon span {
   margin-left: 20px;
 }
+
+.screen-header__right i {
+  margin-left: 15px;
+}
