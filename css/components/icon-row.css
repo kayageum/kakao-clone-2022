@@ -1,0 +1,29 @@
+.icon-row {
+  display: flex;
+  justify-content: space-between;
+  color: var(--darkgray-font-color);
+}
+
+.icon-row__icon {
+  display: flex;
+  width: 25%;
+  flex-direction: column;
+  justify-content: bottom;
+  align-items: center;
+}
+
+.icon-row__icon i {
+  margin-bottom: 20px;
+}
+
+.icon-row__icon span {
+  width: 80px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.icon-multi-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

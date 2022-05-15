@@ -27,11 +27,14 @@
       <div class="screen-header__icon">
         <span><i class="fas fa-search fa-lg"></i></span>
         <span><i class="fas fa-music fa-lg"></i></span>
-        <span><i class="fas fa-cog fa-lg"></i></span>
+        <span class="alert-parent">
+          <i class="fas fa-cog fa-lg"></i>
+          <div class="cog-alert">.</div>
+        </span>
       </div>
     </header>
 
-    <main class="friends-screen">
+    <main class="main-screen more-screen">
       <div class="user-component">
         <div class="user-component__column">
           <img
@@ -40,37 +43,72 @@
           />
           <div class="user-component__text">
             <h4 class="user-component__title">kayageum</h4>
-            <h6 class="user-component__subtitle">+82 123-123-1234</h6>
-          </div>
-        </div>
-        <div class="user-component__column">
-          <span><i class="fas fa-cog fa-lg"></i></span>
-        </div>
-      </div>
-      <div class="friend-screen__channel">
-        <div class="friend-screen__channel-header">
-          <span>Channel</span>
-          <i class="fas fa-chevron-up fa-sm"></i>
-        </div>
-      </div>
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            src="img/kakao_icon.png"
-            class="user-component__avatar user-component__avatar--sm"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title user-component__title--not-bold">
-              Channel
-            </h4>
-            <!-- <h6 class="user-component__subtitle">text text text</h6> -->
+            <h6 class="user-component__subtitle">
+              +82 123-123-1234
+              <i class="fas fa-exclamation fa-sm alert-color"></i>
+            </h6>
           </div>
         </div>
         <div class="user-component__column">
           <div>
-            <span>2</span>
-            <i class="fas fa-chevron-right fa-sm"></i>
+            <i class="far fa-comment-alt fa-2x"></i>
           </div>
+        </div>
+      </div>
+
+      <div class="icon-multi-row">
+        <div class="icon-row">
+          <div class="icon-row__icon">
+            <i class="far fa-calendar fa-2x"></i>
+            <span>Calendar</span>
+          </div>
+          <div class="icon-row__icon alert-parent">
+            <i class="fas fa-download fa-2x"></i>
+            <span>Talk Drive</span>
+            <div class="drive-alert">.</div>
+          </div>
+          <div class="icon-row__icon">
+            <i class="far fa-smile fa-2x"></i>
+            <span>Emoticons</span>
+          </div>
+          <div class="icon-row__icon">
+            <i class="fas fa-palette fa-2x"></i>
+            <span>Themes</span>
+          </div>
+        </div>
+        <div class="icon-row">
+          <div class="icon-row__icon">
+            <i class="fas fa-file-invoice fa-2x"></i>
+            <span>Account</span>
+          </div>
+          <div class="icon-row__icon">
+            <i class="far fa-comment fa-2x"></i>
+            <span>Openchat</span>
+          </div>
+          <div class="icon-row__icon"></div>
+          <div class="icon-row__icon"></div>
+        </div>
+      </div>
+      <div class="suggestions">
+        <h6 class="suggestions__title">Suggestions</h6>
+        <div class="icon-row">
+          <div class="icon-row__icon">
+            <div class="suggestions__icon-image">
+              <i class="fas fa-quote-right"></i>
+            </div>
+            <span calss="suggenstions__text">Kakao Story</span>
+          </div>
+          <div class="icon-row__icon">
+            <div class="suggestions__icon-image">
+              <i class="fas fa-quote-right"></i>
+            </div>
+            <span calss="suggenstions__text">Kakao Friends</span>
+          </div>
+          <div class="icon-row__icon">
+            <i class="fas fa-quote-right suggestions__icon"></i>
+            <span calss="suggenstions__text">Friends Gem</span>
+          </div>
+          <div class="icon-row__icon"></div>
         </div>
       </div>
     </main>
