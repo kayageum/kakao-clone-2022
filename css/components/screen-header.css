@@ -18,3 +18,16 @@
 .screen-header__right i {
   margin-left: 15px;
 }
+
+@keyframes RotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header .fa-cog:hover {
+  animation: RotateCog 2s linear infinite;
+}

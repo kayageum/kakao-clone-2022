@@ -100,3 +100,23 @@
 .ad-channel__image-like i {
   margin-right: 5px;
 }
+
+@keyframes HeartBeat {
+  0% {
+    transform: none;
+    color: white;
+  }
+  50% {
+    transform: scale(1.5);
+    color: tomato;
+  }
+  100% {
+    transform: none;
+    color: white;
+  }
+}
+
+.ad-channel__image:hover i {
+  will-change: transform;
+  animation: HeartBeat 1s linear infinite;
+}
