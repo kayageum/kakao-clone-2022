@@ -1,0 +1,30 @@
+.setting-list {
+  font-weight: 600;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  color: var(--darkgray-font-color);
+  margin: 50px 0px;
+}
+
+.setting-list__icon {
+  margin-right: 20px;
+}
+
+.setting-list__column {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.setting-list__more-info {
+  color: var(--gray-font-color);
+}
+
+.setting-list__divider {
+  border: var(--gray-border);
+}
+
+.new-mark {
+  margin-left: 10px;
+}

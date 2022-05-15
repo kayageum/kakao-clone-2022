@@ -9,3 +9,48 @@
   justify-content: center;
   align-items: center;
 }
+
+.badge-sm {
+  color: tomato;
+  border: 1px solid tomato;
+  border-radius: 15px;
+  font-weight: 600;
+  width: 15px;
+  height: 15px;
+  margin-left: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.alert-parent {
+  position: relative;
+}
+
+.cog-alert {
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  font-size: xx-large;
+  font-weight: 600;
+  color: tomato;
+  position: absolute;
+  right: -5px;
+  top: -25px;
+}
+
+.drive-alert {
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  font-size: xx-large;
+  font-weight: 600;
+  color: tomato;
+  position: absolute;
+  right: 15px;
+  top: -25px;
+}
+
+.alert-color {
+  color: tomato;
+}
