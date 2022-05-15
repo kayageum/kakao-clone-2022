@@ -96,3 +96,61 @@
   margin-right: 0px;
   margin-left: 5px;
 }
+
+.reply {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 3px 15px;
+  box-sizing: border-box;
+}
+
+.reply__column:first-child {
+  width: 10%;
+}
+
+.reply__column:last-child {
+  width: 90%;
+  position: relative;
+}
+
+.reply__column {
+  color: var(--gray-font-color);
+}
+
+.reply__column input {
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  border: var(--gray-border);
+  border-radius: 20px;
+}
+
+.reply__column:last-child > i,
+.reply__column:last-child button {
+  position: absolute;
+  right: 3px;
+  bottom: 5px;
+}
+
+.reply__column:last-child button {
+  background-color: var(--yellow);
+  width: 28px;
+  height: 28px;
+  border: 0px;
+  border-radius: 50%;
+}
+
+.reply__column:last-child > i {
+  right: 40px;
+  bottom: 10px;
+}
+
+.reply__column:last-child button:focus,
+.reply__column:last-child button:active {
+  outline: none;
+}
